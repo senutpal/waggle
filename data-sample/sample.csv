@@ -1,0 +1,116 @@
+tweet_id,author_id,inbound,created_at,text,response_tweet_id,in_response_to_tweet_id
+1,sprintcare,False,2017-10-31 22:10:47+00:00,@115712 I understand. I would like to assist you. We would need to get you into a private secured link to further assist.,2,3
+2,115712,True,2017-10-31 22:11:45+00:00,@sprintcare and how do you propose we do that,,1
+3,115712,True,2017-10-31 22:08:27+00:00,@sprintcare I have sent several private messages and no one is responding as usual,1,4
+4,sprintcare,False,2017-10-31 21:54:49+00:00,@115712 Please send us a Private Message so that we can further assist you. Just click ‘Message’ at the top of your profile.,3,5
+5,115712,True,2017-10-31 21:49:35+00:00,@sprintcare I did.,4,6
+6,sprintcare,False,2017-10-31 21:46:24+00:00,"@115712 Can you please send us a private message, so that I can gain further details about your account?","5,7",8
+8,115712,True,2017-10-31 21:45:10+00:00,@sprintcare is the worst customer service,"9,6,10",
+11,sprintcare,False,2017-10-31 22:10:35+00:00,"@115713 This is saddening to hear. Please shoot us a DM, so that we can look into this for you. -KC",,12
+12,115713,True,2017-10-31 22:04:47+00:00,@sprintcare You gonna magically change your connectivity for me and my whole family ? 🤥 💯,"11,13,14",15
+15,sprintcare,False,2017-10-31 20:03:31+00:00,"@115713 We understand your concerns and we'd like for you to please send us a Direct Message, so that we can further assist you. -AA",12,16
+16,115713,True,2017-10-31 20:00:43+00:00,@sprintcare Since I signed up with you....Since day 1,15,17
+17,sprintcare,False,2017-10-31 19:59:13+00:00,"@115713 H there! We'd definitely like to work with you on this, how long have you been experiencing this issue? -AA",16,18
+18,115713,True,2017-10-31 19:56:01+00:00,"@115714 y’all lie about your “great” connection. 5 bars LTE, still won’t load something. Smh.",17,
+19,sprintcare,False,2017-10-31 22:10:10+00:00,@115715 Please send me a private message so that I can send you the link to access your account. -FR,,20
+20,115715,True,2017-10-31 22:03:34+00:00,"@115714 whenever I contact customer support, they tell me I have shortcode enabled on my account, but I have never in the 4 years I've tried https://t.co/0G98RtNxPK",19,
+21,Ask_Spectrum,False,2017-10-31 22:14:37+00:00,@115716 What information is incorrect? ^JK,"22,23",24
+22,115716,True,2017-10-31 22:16:48+00:00,@Ask_Spectrum Would you like me to email you a copy of one since Spectrum is not updating your training?,25,21
+25,Ask_Spectrum,False,2017-10-31 22:18:28+00:00,"@115716 Our department is part of the corporate office.  If you're particular area has gone to this format, we were unawa... https://t.co/P7XCmTzPQj",26,22
+26,115716,True,2017-10-31 22:19:56+00:00,@Ask_Spectrum I received this from your corporate office would you like a copy?,27,25
+27,Ask_Spectrum,False,2017-10-31 22:21:26+00:00,@115716 No thank you. ^JK,,26
+23,115716,True,2017-10-31 22:16:05+00:00,@Ask_Spectrum The correct way to do it is via an OCS Account Takeover and email Consent Form it does not need to be done in a local office,,21
+24,115716,True,2017-10-31 22:13:02+00:00,@Ask_Spectrum That is INCORRECT information I have the form in front of me that is faxed over-maybe you need to maintain up to date information,21,28
+28,Ask_Spectrum,False,2017-10-31 22:05:37+00:00,@115716 The information pertaining to the account assumption is correct.  This does need to be done at a local outlet wit... https://t.co/P7XCmTzPQj,24,29
+29,115716,True,2017-10-31 22:01:35+00:00,actually that's a broken link you sent me and incorrect information https://t.co/V4yfrHR8VI,28,
+30,Ask_Spectrum,False,2017-10-31 22:12:09+00:00,"@115717 Hello, My apologies for any frustrations or inconvenience. I’d be happy to look into this for you? ^MG",,31
+31,115717,True,2017-10-31 22:06:54+00:00,"Yo @Ask_Spectrum, your customer service reps are super nice— but imma start trippin if y’all don’t get my service going!",30,
+32,Ask_Spectrum,False,2017-10-31 22:10:08+00:00,@115718 I apologize for the inconvenience. I will be glad to assist you. Can you DM me your Name and acct # or phone #? -JB,,33
+33,115718,True,2017-10-31 22:06:56+00:00,My picture on @Ask_Spectrum pretty much every day. Why should I pay $171 per month? https://t.co/U6ptkQa5Ik,32,
+34,VerizonSupport,False,2017-10-31 22:13:33+00:00,"@115719 Help has arrived! We are sorry to see that you are having trouble. How can we help?
+^HSB",35,36
+35,115719,True,2017-10-31 22:49:16+00:00,"@VerizonSupport I finally got someone that helped me, thanks!",37,34
+37,VerizonSupport,False,2017-10-31 22:52:00+00:00,"@115719 Awesome! If you ever need us we are just a tweet away.
+^HSB",,35
+36,115719,True,2017-10-31 22:10:46+00:00,somebody from @VerizonSupport please help meeeeee 😩😩😩😩 I'm having the worst luck with your customer service,34,
+38,VerizonSupport,False,2017-10-31 22:13:30+00:00,"@115720 Have your friend message us.
+^ACM",,39
+39,115720,True,2017-10-31 22:12:16+00:00,@VerizonSupport My friend is without internet we need to play videogames together please our skills diminish every moment without internetz,38,
+40,VerizonSupport,False,2017-10-31 22:12:00+00:00,"@115721 Please follow and DM us so that we can look into this order. 
+^HSB",41,42
+41,115721,True,2017-10-31 22:24:55+00:00,@VerizonSupport What else can I provide? They refuse to help me because they cannot validate the account...,43,40
+43,VerizonSupport,False,2017-10-31 22:29:00+00:00,"@115721 We would not be able to verify anything without authenticating your account.
+^JAY",44,41
+44,115721,True,2017-10-31 22:32:06+00:00,"@VerizonSupport How? I have my phone number and email, that's it. How did I get equipment and service? I'm literally trying to pay and nobody can find me?",45,43
+45,VerizonSupport,False,2017-10-31 22:36:29+00:00,"@115721 We can use the order number to locate the account but will need to do so in our secure one on one chat. Please follow and DM us. 
+^HSB",,44
+42,115721,True,2017-10-31 22:06:21+00:00,@115722 MD. And this was sent to the wrong address https://t.co/dMQ1WZXJOk,40,46
+46,115722,True,2017-10-31 22:04:29+00:00,"@115721 Hello Duke, Do you have a copy of your bill? What state are your services located in?
+^NHP",42,47
+47,115721,True,2017-10-31 22:01:42+00:00,@115722 Nobody can find my account or number. I walked out of a store with this. I've explained that they can find my acct via my devices serial #..,46,48
+48,115722,True,2017-10-31 21:49:31+00:00,"@115721 Are you referring to wireless or residential service?
+^JAY",47,49
+49,115721,True,2017-10-31 21:42:09+00:00,"@115722 tried to pay a bill for 60 days. No service, rude CS, and several transfers. Look up my equipment # and give me an acct #!",48,
+50,VerizonSupport,False,2017-10-31 22:07:30+00:00,"@115723 Is the light on top red?
+^JAY",,51
+51,115723,True,2017-10-31 22:04:57+00:00,"@VerizonSupport Don’t know, router is downstairs. But it’s just the WiFi Nothing connected to Ethernet",50,52
+52,VerizonSupport,False,2017-10-31 22:03:57+00:00,"@115723 Did the lights change on the router when this happened?
+^JAY",51,53
+53,115723,True,2017-10-31 21:58:39+00:00,@VerizonSupport Just randomly boots me offline there it goes again,52,54
+54,VerizonSupport,False,2017-10-31 20:11:54+00:00,"@115723 Do you have our Fios service?  When services go out, does the internet light on the router change color? ^BCW",53,55
+55,115723,True,2017-10-31 20:09:13+00:00,@VerizonSupport Yep,54,56
+56,VerizonSupport,False,2017-10-31 20:02:25+00:00,"@115723 Are all your services cutting out?
+^ACM",55,57
+57,115723,True,2017-10-31 19:58:22+00:00,@VerizonSupport Cuts out every 20 minutes this is ridiculous,56,58
+58,VerizonSupport,False,2017-10-31 19:57:30+00:00,@115723 What did we do to make you feel this way and how can we fix things between us? ^KMG,57,59
+59,115723,True,2017-10-31 19:54:51+00:00,@115722 is the worst ISP I’ve ever had,58,
+60,VerizonSupport,False,2017-10-31 22:04:29+00:00,"@115724 In what area are you located? All of your services are down at this time?
+^HSB",,61
+61,115724,True,2017-10-31 22:00:36+00:00,".@VerizonSupport @115725 @115726                                                 &gt;All of VERIZON IS DOWN&lt;
+When can we expect a fix ?",60,
+62,VerizonSupport,False,2017-10-31 22:00:29+00:00,"@115727 Which app are you referring too? 
+^ACM",,63
+63,115727,True,2017-10-31 21:56:55+00:00,@115725 fix your app it won't even open,62,
+64,ChipotleTweets,False,2017-10-31 22:14:28+00:00,@115728 I still think you look great! -Becky,65,66
+65,115728,True,2017-10-31 22:15:30+00:00,@ChipotleTweets @ChipotleTweets Becky is very nice,,64
+66,115728,True,2017-10-31 22:03:38+00:00,"@ChipotleTweets @28 
+I don't fit in my Veggie Burrito costume #Halloween https://t.co/7tJDVpzLWn","64,67",
+68,ChipotleTweets,False,2017-10-31 22:14:00+00:00,@115729 I'm so sorry about that. Please tell us more so we can help: https://t.co/Ax7W1Dx3Y9 -Becky,,69
+69,115729,True,2017-10-31 22:03:32+00:00,@ChipotleTweets messed up today and didn’t give me my $3 burrito although I was dressed up 😭,68,
+70,ChipotleTweets,False,2017-10-31 22:13:29+00:00,@115730 Hopefully we'll get there at some point! -Becky,,71
+71,115730,True,2017-10-31 22:03:06+00:00,hey @ChipotleTweets wanna come to Mammoth. I'll at least eat there once a week i promise,"70,72",
+73,ChipotleTweets,False,2017-10-31 22:12:39+00:00,@115731 Guac on! I'm happy it was such a great experience. -Becky,,74
+74,115731,True,2017-10-31 22:01:57+00:00,"@ChipotleTweets I had excellent service tonight too! Plenty of people on the line, went very fast, everyone was kind!",73,75
+75,ChipotleTweets,False,2017-10-31 20:37:31+00:00,@115731 It's because you're smart. -Tara,74,76
+76,115731,True,2017-10-31 20:21:10+00:00,When you're the only one in costume #boorito @ChipotleTweets,75,
+77,ChipotleTweets,False,2017-10-31 22:11:38+00:00,@115732 That's incredibly concerning. Please tell us more here: https://t.co/Ax7W1Dx3Y9 -Becky,,78
+78,115732,True,2017-10-31 22:01:40+00:00,@ChipotleTweets no Diet Coke and a literal bone this Boorito was extra spooky! https://t.co/C4oCCtdUct,77,
+79,ChipotleTweets,False,2017-10-31 22:11:12+00:00,@115733 Nope! Still just the $3. -Becky,,80
+80,115733,True,2017-10-31 22:01:32+00:00,"@ChipotleTweets If you get queso or quac on you're bowl, its extra?",79,81
+81,ChipotleTweets,False,2017-10-30 15:00:02+00:00,Just stop by in costume 10/31 3pm-close. Official rules: https://t.co/1HmW7QxwEh https://t.co/Wn0xErxC2z,"80,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151",
+152,ChipotleTweets,False,2017-10-31 22:10:33+00:00,"@115734 I mean, Boorito is basically the adult version of Halloween... -Becky",,153
+153,115734,True,2017-10-31 22:01:03+00:00,"Happy Halloween! Since I'm too old to trick or treat I now look forward to $3 booritos at @ChipotleTweets 👻 I got mine earlier, did you?",152,
+154,ChipotleTweets,False,2017-10-31 22:09:00+00:00,@115735 I'm so glad we could help. Who did you work with? I'd like to share the praise. -Becky,,155
+155,115735,True,2017-10-31 22:00:46+00:00,@ChipotleTweets Thank you @ChipotleTweets for resolving my issue so quickly!! Y’all are the best ☺️ #fanforlife,154,156
+156,115735,True,2017-10-23 03:19:06+00:00,So frustrated with @ChipotleTweets 😡 Ordered dinner on Saturday using their app. Order was wrong AND they charged my credit card twice,"155,157",
+158,ChipotleTweets,False,2017-10-31 22:08:00+00:00,@115736 All of our U.S. locations are participating! -Becky,,159
+159,115736,True,2017-10-31 22:00:10+00:00,"Btw @ChipotleTweets giving out $3 burritos if you dress up for Halloween 🎃 Call your Chipotle to make sure, they’re doing it @ select ones",158,
+160,ChipotleTweets,False,2017-10-31 22:06:55+00:00,@115737 My apologies for that. Just sent you a DM to help. -Becky,,161
+161,115737,True,2017-10-31 21:59:25+00:00,"@ChipotleTweets Tried, didn't work. How rude :/",160,162
+162,ChipotleTweets,False,2017-10-31 19:51:00+00:00,@115737 Give it a try. -Tara,161,163
+163,115737,True,2017-10-31 19:43:47+00:00,@ChipotleTweets can I dress up as myself and still qualify for a BOORITO?,162,
+164,ChipotleTweets,False,2017-10-31 22:03:32+00:00,"@115738 That's the best kind of trick-or-treating. All treats, my friend. -Becky",,165
+165,115738,True,2017-10-31 21:58:28+00:00,"Every year, my trick-or-treating routine is walking to Chipotle, spending 3 dollars and walking back home. @ChipotleTweets",164,
+166,ChipotleTweets,False,2017-10-31 22:02:25+00:00,@115739 That's incredibly concerning. Please provide more details so we can investigate: https://t.co/Ax7W1Dx3Y9 -Becky,,167
+167,115739,True,2017-10-31 21:57:58+00:00,@ChipotleTweets this is nasty. A used napkin in someone's food https://t.co/EkWiD9vhnr,166,
+168,ChipotleTweets,False,2017-10-31 22:01:39+00:00,@115740 Bummer. I'm so sorry. How far away is the closest location? -Becky,,169
+169,115740,True,2017-10-31 21:57:23+00:00,$3 burritos and I’m nowhere near a @ChipotleTweets 🤦🏾‍♂️,168,
+170,ChipotleTweets,False,2017-10-31 22:01:00+00:00,@115741 Noted 😊 -Becky,,171
+171,115741,True,2017-10-31 21:57:23+00:00,@ChipotleTweets Also I got the onesie at target. So cozy,170,172
+172,115741,True,2017-10-31 21:57:08+00:00,@ChipotleTweets Thanks Becky! Just feeling sorry for myself because my fiancé is driving from D.C. To Mississippi tonight,"173,171",174
+174,ChipotleTweets,False,2017-10-31 21:56:06+00:00,"@115741 You won't be alone – we'll be there with you. Also, I want that llama onesie. -Becky",172,175
+175,115741,True,2017-10-31 21:54:13+00:00,Considering walking to @ChipotleTweets in my llama onesie alone happy Halloween 😭,174,
+176,ChipotleTweets,False,2017-10-31 22:01:00+00:00,@115742 I love it! Thanks so much for stopping by. -Becky,,177
+177,115742,True,2017-10-31 21:57:19+00:00,@ChipotleTweets name a better halloween duo #speedwaybrick #UTtranscript https://t.co/5ShDRMlC1T,176,
+178,AskPlayStation,False,2017-10-31 22:14:49+00:00,@115743 There is no info to share at the moment. Feel free to keep an eye on the PS Blog for news and updates: https://t.co/aLtfBAztyC,179,180
+179,115744,True,2017-10-31 22:17:05+00:00,@AskPlayStation @115743 Can I get help already??,,178

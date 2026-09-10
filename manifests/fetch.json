@@ -1,0 +1,25 @@
+{
+  "amazon_company_rows": 169840,
+  "amazon_pool_rows": 358973,
+  "brand": "AmazonHelp",
+  "bytes": 516508641,
+  "cols": [
+    "tweet_id",
+    "author_id",
+    "inbound",
+    "created_at",
+    "text",
+    "response_tweet_id",
+    "in_response_to_tweet_id"
+  ],
+  "handle": "thoughtvector/customer-support-on-twitter/versions/10",
+  "in_reply_empty": 794335,
+  "inbound_false": 1273931,
+  "inbound_true": 1537843,
+  "kagglehub_version": "1.0.2",
+  "nat_dates": 0,
+  "raw_path": "data-raw/twcs.csv",
+  "response_empty": 1040629,
+  "rows": 2811774,
+  "sha256": "cd297fcfa1bf6f99938be242e8e578980bc6d1b96adc8691abec9a39175b03c0"
+}
