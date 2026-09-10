@@ -52,6 +52,16 @@ retrieval:
   rrf_k: 60
   mmr_lambda: 0.7
   tie_break: sorted-doc-id
+  bm25: {k1: 0.8, b: 0.4, k1_grid: [0.6, 0.8, 1.0], b_grid: [0.3, 0.4, 0.5]}
+  tokenizer: {lowercase_text_only: true, keep_codes: true, keep_emoji_hashtag: true, stem_text_only: true}
+  top_k: {sparse: 50, dense: 50, fused: 20, rerank_depth: 10, final: 3}
+  rerank: {model: cross-encoder/ms-marco-MiniLM-L-6-v2, batch_size: 16, trunc: 512, depth_in: 10, depth_out: 3}
+  thresholds: {top_score: 0.35, backoff_min_hits: 3, mmr_skip_pairwise: 0.92}
+  boosts: {intent: 0.2, date: 0.05, date_decay: 0.15, lang: 0.03}
+  corpus: {split: train, turns: inbound-only, brand: AmazonHelp}
+  models:
+    default: {hf_id: sentence-transformers/all-MiniLM-L6-v2, dim: 384, normalize: true}
+    ablation: {hf_id: BAAI/bge-small-en-v1.5, dim: 384, query_prefix: 'Represent this sentence for searching relevant passages: ', queries_only: true}
 brand:
   allowlist:
     - AmazonHelp

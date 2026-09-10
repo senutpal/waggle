@@ -1,0 +1,23 @@
+{
+  "build_seconds": 4.72,
+  "inputs": {
+    "train": "D:\\VsCode\\assignment\\waggle\\cache\\train.parquet"
+  },
+  "n_docs": 12633,
+  "params": {
+    "b": 0.4,
+    "k1": 0.8
+  },
+  "q0_hash": "562be7add55e89d8f8315adc7c592ce46357afad91b48a653ef8f3798daa3d41",
+  "seed": 42,
+  "verify": {
+    "b": 0.4,
+    "k1": 0.8,
+    "ms_30k": 24.1,
+    "n_docs": 12633,
+    "ord_probe_rank": null,
+    "ord_rank1": true,
+    "tok_ms": 1443.2
+  },
+  "version": "1.0.0"
+}
