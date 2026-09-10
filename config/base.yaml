@@ -1,0 +1,58 @@
+seed: 42
+python_hashseed: 42
+env:
+  PYTHONUTF8: "1"
+  PYTHONHASHSEED: "42"
+  OMP_NUM_THREADS: "1"
+  MKL_NUM_THREADS: "1"
+  OPENBLAS_NUM_THREADS: "1"
+  TOKENIZERS_PARALLELISM: "false"
+  HF_HUB_OFFLINE: "1"
+paths:
+  raw: data-raw/twcs.csv
+  cache: cache/
+  manifests: manifests/
+  sample: data-sample/sample.csv
+  results: results/
+  report: report/
+  eval_parquet: data-sample/eval_200.parquet
+  index: cache/faiss.index
+  meta: cache/meta.json
+  manifest_sha: cache/MANIFEST.sha256
+temporal:
+  cut: "2017-10-15T00:00:00Z"
+  gap_hours: 24
+  train_rule: "thread_start < cut"
+  golden_rule: "thread_start >= cut"
+  assert: "max(train.created_at) + 24h < min(golden.created_at)"
+  max_span_hours: 48
+  max_gap_hours: 24
+  max_nominal_turns: 8
+dedup:
+  exact: sha256-normalized-lower
+  minhash:
+    lib: datasketch
+    num_perm: 128
+    shingle: char-5gram
+    threshold_freeze: 0.85
+    threshold_sample: 0.8
+    seed: 42
+  tfidf_verify:
+    cosine_freeze: 0.85
+    cosine_flag_sample: 0.9
+lid:
+  model: cache/lid.176.ftz
+  url: https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.ftz
+  bytes: 938013
+  keep_threshold: 0.65
+  audit_lo: 0.5
+  audit_hi: 0.75
+  audit_n: 200
+retrieval:
+  rrf_k: 60
+  mmr_lambda: 0.7
+  tie_break: sorted-doc-id
+brand:
+  allowlist:
+    - AmazonHelp
+  primary_handle: thoughtvector/customer-support-on-twitter/versions/10
