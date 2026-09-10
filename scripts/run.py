@@ -18,6 +18,11 @@ def main() -> int:
         [sys.executable, "scripts/build_threads.py"],
         [sys.executable, "scripts/clean.py"],
         [sys.executable, "scripts/freeze.py"],
+        [sys.executable, "scripts/sample_golden.py"],
+        [sys.executable, "scripts/label_pilot.py"],
+        [sys.executable, "scripts/train_intent.py"],
+        [sys.executable, "scripts/calibrate_intent.py"],
+        [sys.executable, "scripts/banking_note.py"],
     ]
     for cmd in cmds:
         r = subprocess.run(cmd, cwd=str(ROOT))
