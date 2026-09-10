@@ -1,0 +1,23 @@
+{
+  "cut": "2017-10-15T00:00:00Z",
+  "exact_method": "sha256(lower(normalize(text))) + thread granularity",
+  "exact_overlap": 0,
+  "gap_hours": 24,
+  "id_overlap": {
+    "thread_id_overlap": 0
+  },
+  "n_golden_pool": 54714,
+  "n_golden_sample": 200,
+  "n_train": 12633,
+  "near_dup": {
+    "disposition": "pass",
+    "max_pair": {},
+    "method": "datasketch MinHash num_perm=128 char-5gram seed=42 scheme=affine32 + LSH threshold=0.85",
+    "n_flagged": 0,
+    "near_dup_max": 0.0,
+    "threshold_freeze": 0.85
+  },
+  "pass": true,
+  "seed": 42,
+  "version": "1.0.0"
+}

@@ -34,8 +34,8 @@ def thread_split(threads: list[dict], cut: str = "2017-10-15T00:00:00Z", gap_hou
 def assert_gap(train_max, golden_min, gap_hours: int = 24) -> float:
     import pandas as pd
 
-    a = pd.Timestamp(train_max, tz="UTC")
-    b = pd.Timestamp(golden_min, tz="UTC")
+    a = pd.to_datetime(train_max, utc=True)
+    b = pd.to_datetime(golden_min, utc=True)
     delta_h = (b - a).total_seconds() / 3600.0
     if not (a + pd.Timedelta(hours=gap_hours) < b):
         raise AssertionError(f"gap violated: max_train={a} min_golden={b} delta_h={delta_h} < {gap_hours}")

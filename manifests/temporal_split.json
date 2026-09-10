@@ -1,0 +1,33 @@
+{
+  "cut": "2017-10-15T00:00:00Z",
+  "gap_assert": {
+    "delta_hours": 24.06,
+    "pass": true
+  },
+  "gap_hours": 24,
+  "golden_pool": {
+    "min_created_at": "2017-10-15T00:00:16+00:00",
+    "n_threads": 54714,
+    "n_turns": 189544,
+    "rule": "thread_start >= cut"
+  },
+  "inputs": {
+    "brand": "AmazonHelp",
+    "pool": "cache/clean_threads.parquet",
+    "pool_sha256": "9a53480edc4cb6bc36190bd998143263bbd419cede052eeaeb0fe05f95bbea31"
+  },
+  "quarantine": {
+    "n_threads": 1193,
+    "n_turns": 4040,
+    "reason": "straddle cut-24h embargo"
+  },
+  "seed": 42,
+  "train": {
+    "max_created_at": "2017-10-13T23:56:56+00:00",
+    "n_threads": 12633,
+    "n_turns": 42121,
+    "rule": "thread_start < cut"
+  },
+  "tz": "UTC",
+  "version": "1.0.0"
+}
