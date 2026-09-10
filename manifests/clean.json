@@ -1,0 +1,22 @@
+{
+  "exact_removed": 10,
+  "lid_audit_n": 200,
+  "lid_band_050_075": 3965,
+  "lid_dropped": 16602,
+  "lid_method": "heuristic-fallback",
+  "lid_threshold": 0.65,
+  "lsh_b": 8,
+  "lsh_r": 16,
+  "near_removed": 9,
+  "near_verified_tfidf_gt085": 4,
+  "pct_removed_threads": 0.1952,
+  "pii_norm": {
+    "email_hits": 0,
+    "phone_hits": 0
+  },
+  "sig_changed_turns": 281570,
+  "threads_in": 85161,
+  "threads_out": 68540,
+  "turns_in": 287426,
+  "turns_out": 235705
+}

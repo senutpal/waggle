@@ -70,7 +70,7 @@ def char5grams(text: str):
 def minhash_signature(text: str, num_perm: int = 128, seed: int = 42):
     from datasketch import MinHash
 
-    m = MinHash(num_perm=num_perm, seed=seed)
+    m = MinHash(num_perm=num_perm, seed=seed, scheme="affine32")
     for sh in char5grams(text):
         m.update(sh.encode("utf-8"))
     return m
