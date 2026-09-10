@@ -1,0 +1,350 @@
+{
+  "calibration": {
+    "best_temp": 0.75,
+    "bins_after": [
+      {
+        "acc": 0.0,
+        "bin": 0,
+        "conf": 0.0,
+        "hi": 0.1,
+        "lo": 0.0,
+        "n": 0
+      },
+      {
+        "acc": 0.0,
+        "bin": 1,
+        "conf": 0.0,
+        "hi": 0.2,
+        "lo": 0.1,
+        "n": 0
+      },
+      {
+        "acc": 1.0,
+        "bin": 2,
+        "conf": 0.2642,
+        "hi": 0.3,
+        "lo": 0.2,
+        "n": 1
+      },
+      {
+        "acc": 0.2857,
+        "bin": 3,
+        "conf": 0.3542,
+        "hi": 0.4,
+        "lo": 0.3,
+        "n": 7
+      },
+      {
+        "acc": 0.2143,
+        "bin": 4,
+        "conf": 0.4584,
+        "hi": 0.5,
+        "lo": 0.4,
+        "n": 14
+      },
+      {
+        "acc": 0.5238,
+        "bin": 5,
+        "conf": 0.5537,
+        "hi": 0.6,
+        "lo": 0.5,
+        "n": 21
+      },
+      {
+        "acc": 0.7895,
+        "bin": 6,
+        "conf": 0.6479,
+        "hi": 0.7,
+        "lo": 0.6,
+        "n": 19
+      },
+      {
+        "acc": 0.7222,
+        "bin": 7,
+        "conf": 0.7526,
+        "hi": 0.8,
+        "lo": 0.7,
+        "n": 18
+      },
+      {
+        "acc": 0.8261,
+        "bin": 8,
+        "conf": 0.8507,
+        "hi": 0.9,
+        "lo": 0.8,
+        "n": 23
+      },
+      {
+        "acc": 0.9278,
+        "bin": 9,
+        "conf": 0.9741,
+        "hi": 1.0,
+        "lo": 0.9,
+        "n": 97
+      }
+    ],
+    "ece_after": 0.0678,
+    "ece_after_ci95": {
+      "lower": 0.0495,
+      "n_boot": 2000,
+      "point": 0.0678,
+      "upper": 0.1323
+    },
+    "ece_before": 0.0761,
+    "ece_gate_lt_0_05": false,
+    "head": "t1",
+    "nll_after": 0.6942,
+    "nll_before": 0.6951,
+    "t1_temp_tune": {
+      "best_temp": 0.75,
+      "mean_nll_by_temp": {
+        "0.1": 2.267183305320857,
+        "0.25": 1.0425653633638226,
+        "0.5": 0.649220538990647,
+        "0.75": 0.6039391673709273,
+        "1.0": 0.6557592342926283,
+        "1.25": 0.7435684913964581,
+        "1.5": 0.8422319028222164,
+        "1.75": 0.9402675845664153,
+        "2.0": 1.0326436681569884,
+        "2.25": 1.1174867164344418,
+        "2.5": 1.1944438115073668,
+        "2.75": 1.263859087078763,
+        "3.0": 1.326362468536676
+      }
+    }
+  },
+  "caveat": "pseudo-labels both sides; T0~1.0 is circular by construction",
+  "confusion_t1": [
+    [
+      10,
+      1,
+      1,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      10,
+      4,
+      1,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      26,
+      0,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      13,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      30,
+      0,
+      0,
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2,
+      11,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      9,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      5,
+      2,
+      0,
+      0,
+      0,
+      23
+    ]
+  ],
+  "energy_oos": {
+    "auroc": 0.51,
+    "fpr95": 0.9333333333333333,
+    "n_id": 170,
+    "n_oos": 30,
+    "proxy": "hard-30 (sarcasm/multi/low-margin) as OOD vs random-170 as ID; disclosed proxy, not true OOS",
+    "score": "neg-energy from T1 temp-scaled logits"
+  },
+  "labels": {
+    "source": "heur-pseudo-stratifier:heur-v1.2.0",
+    "taxonomy": [
+      "account-security",
+      "cancel-modify",
+      "returns-refunds",
+      "payment-promo",
+      "shipping-tracking",
+      "order-status",
+      "device-tech",
+      "product-info",
+      "complaint-feedback",
+      "other"
+    ]
+  },
+  "seed": 42,
+  "split": "thread-granularity train(12633, pseudo) -> golden(200); no turn-level split",
+  "t0_majority": {
+    "hard_only_30": {
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "majority_label": "other",
+    "n": 200,
+    "overall": {
+      "accuracy": 0.15,
+      "macro_f1": 0.02608695652173913
+    },
+    "random_only_170": {
+      "accuracy": 0.17647058823529413,
+      "macro_f1": 0.03
+    }
+  },
+  "t0_regex": {
+    "hard_only_30": {
+      "accuracy": 1.0,
+      "macro_f1": 0.6
+    },
+    "n": 200,
+    "overall": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "random_only_170": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    }
+  },
+  "t1": {
+    "cv_accuracy_mean": 0.7998,
+    "cv_macro_f1_mean": 0.7621,
+    "cv_macro_f1_std": 0.0122,
+    "hard_only_30": {
+      "accuracy": 0.6,
+      "macro_f1": 0.30999999999999994
+    },
+    "infer_ms_per_doc": 1.374,
+    "n": 200,
+    "overall": {
+      "accuracy": 0.77,
+      "macro_f1": 0.7865899714451275
+    },
+    "params": {
+      "C": 4.0,
+      "class_weight": "balanced",
+      "max_features": 20000,
+      "max_iter": 500,
+      "min_df": 5,
+      "solver": "lbfgs"
+    },
+    "random_only_170": {
+      "accuracy": 0.8,
+      "macro_f1": 0.8148306212407986
+    },
+    "train_seconds": 24.69
+  },
+  "t2": {
+    "attempted": true,
+    "best_temp": 1.0,
+    "bge_ablation": "deferred (not downloaded; default-only per $0 budget)",
+    "decision": {
+      "delta": -0.1371,
+      "rule": "adopt T2 iff overall macro-F1 >= T1 + 0.02 else stay on T1",
+      "selected": "t1",
+      "t1_macro_f1": 0.7866,
+      "t2_hard_only_30": {
+        "accuracy": 0.6,
+        "macro_f1": 0.34547619047619044
+      },
+      "t2_macro_f1": 0.6495,
+      "t2_random_only_170": {
+        "accuracy": 0.6529411764705882,
+        "macro_f1": 0.6593906601999422
+      }
+    },
+    "dim": 384,
+    "encode_seconds": 617.2,
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "ok": true
+  },
+  "total_seconds_s2_4": 626.8,
+  "version": "1.0.0"
+}

@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
 .venv/
+.venv311/
 data-raw/
 *.parquet
 !data-sample/*.parquet
