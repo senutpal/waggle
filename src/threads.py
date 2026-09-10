@@ -202,10 +202,6 @@ def _linearize_earliest_child(turns, children, parent, created) -> list[str]:
         path.append(cur)
         kids = sorted([c for c in children.get(cur, []) if c in in_set], key=lambda x: created[x])
         cur = kids[0] if kids else None
-    if len(path) < len(turns):
-        rest = [t for t in turns if t not in seen]
-        rest.sort(key=lambda t: created[t])
-        path.extend(rest)
     return path
 
 
@@ -213,7 +209,7 @@ def _split_on_gap(turns: list[str], created: dict, gap_hours: float) -> list[lis
     import pandas as pd
 
     pieces: list[list[str]] = [[turns[0]]]
-    gap = pd.Timedelta(hours=gap_hours)
+    gap = pd.Timedelta(hours=float(gap_hours))
     for prev, cur in zip(turns, turns[1:]):
         if created[cur] - created[prev] > gap:
             pieces.append([cur])

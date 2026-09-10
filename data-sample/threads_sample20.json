@@ -1,0 +1,277 @@
+[
+  {
+    "company": "AmazonHelp",
+    "end": "2011-10-13T11:57:18+00:00",
+    "long_flag": false,
+    "n_turns": 1,
+    "over48": false,
+    "span_h": 0.0,
+    "start": "2011-10-13T11:57:18+00:00",
+    "thread_id": "d3244d10b0860123",
+    "turns": [
+      "498536"
+    ]
+  },
+  {
+    "company": "AmazonHelp",
+    "end": "2011-10-24T10:31:08+00:00",
+    "long_flag": false,
+    "n_turns": 1,
+    "over48": false,
+    "span_h": 0.0,
+    "start": "2011-10-24T10:31:08+00:00",
+    "thread_id": "7ccd6dd9153050a3",
+    "turns": [
+      "1489160"
+    ]
+  },
+  {
+    "company": "AmazonHelp",
+    "end": "2014-02-25T10:00:26+00:00",
+    "long_flag": false,
+    "n_turns": 1,
+    "over48": false,
+    "span_h": 0.0,
+    "start": "2014-02-25T10:00:26+00:00",
+    "thread_id": "16a90943411c69ec",
+    "turns": [
+      "2937390"
+    ]
+  },
+  {
+    "company": "AmazonHelp",
+    "end": "2014-04-23T13:21:02+00:00",
+    "long_flag": false,
+    "n_turns": 1,
+    "over48": false,
+    "span_h": 0.0,
+    "start": "2014-04-23T13:21:02+00:00",
+    "thread_id": "36f60bb5c2159197",
+    "turns": [
+      "530811"
+    ]
+  },
+  {
+    "company": "AmazonHelp",
+    "end": "2014-06-28T02:46:18+00:00",
+    "long_flag": false,
+    "n_turns": 1,
+    "over48": false,
+    "span_h": 0.0,
+    "start": "2014-06-28T02:46:18+00:00",
+    "thread_id": "6740d675afa3e14b",
+    "turns": [
+      "526580"
+    ]
+  },
+  {
+    "company": "AmazonHelp",
+    "end": "2015-03-28T22:47:32+00:00",
+    "long_flag": false,
+    "n_turns": 1,
+    "over48": false,
+    "span_h": 0.0,
+    "start": "2015-03-28T22:47:32+00:00",
+    "thread_id": "609295dc0667f42e",
+    "turns": [
+      "1331829"
+    ]
+  },
+  {
+    "company": "AmazonHelp",
+    "end": "2015-05-14T15:40:49+00:00",
+    "long_flag": false,
+    "n_turns": 1,
+    "over48": false,
+    "span_h": 0.0,
+    "start": "2015-05-14T15:40:49+00:00",
+    "thread_id": "8187fe294b871b4b",
+    "turns": [
+      "530813"
+    ]
+  },
+  {
+    "company": "AmazonHelp",
+    "end": "2015-06-13T02:17:56+00:00",
+    "long_flag": false,
+    "n_turns": 3,
+    "over48": false,
+    "span_h": 0.719,
+    "start": "2015-06-13T01:34:49+00:00",
+    "thread_id": "891afbd7a1b16905",
+    "turns": [
+      "648407",
+      "648405",
+      "648406"
+    ]
+  },
+  {
+    "company": "AmazonHelp",
+    "end": "2015-06-27T16:54:26+00:00",
+    "long_flag": false,
+    "n_turns": 7,
+    "over48": false,
+    "span_h": 21.289,
+    "start": "2015-06-26T19:37:06+00:00",
+    "thread_id": "462f627aed166a3e",
+    "turns": [
+      "369267",
+      "369266",
+      "369261",
+      "369259",
+      "369260",
+      "369262",
+      "369263"
+    ]
+  },
+  {
+    "company": "AmazonHelp",
+    "end": "2015-06-29T20:40:12+00:00",
+    "long_flag": false,
+    "n_turns": 1,
+    "over48": false,
+    "span_h": 0.0,
+    "start": "2015-06-29T20:40:12+00:00",
+    "thread_id": "cebfc776fbd37567",
+    "turns": [
+      "369264"
+    ]
+  },
+  {
+    "company": "AmazonHelp",
+    "end": "2015-07-14T17:02:02+00:00",
+    "long_flag": false,
+    "n_turns": 2,
+    "over48": false,
+    "span_h": 0.956,
+    "start": "2015-07-14T16:04:42+00:00",
+    "thread_id": "e63d61ce43be01da",
+    "turns": [
+      "2933545",
+      "2933544"
+    ]
+  },
+  {
+    "company": "AmazonHelp",
+    "end": "2015-07-17T15:01:06+00:00",
+    "long_flag": false,
+    "n_turns": 3,
+    "over48": false,
+    "span_h": 1.134,
+    "start": "2015-07-17T13:53:02+00:00",
+    "thread_id": "c0b74d5b2365115a",
+    "turns": [
+      "130747",
+      "130745",
+      "130746"
+    ]
+  },
+  {
+    "company": "AmazonHelp",
+    "end": "2015-08-10T13:26:02+00:00",
+    "long_flag": false,
+    "n_turns": 2,
+    "over48": false,
+    "span_h": 0.023,
+    "start": "2015-08-10T13:24:38+00:00",
+    "thread_id": "018edffda91e8b55",
+    "turns": [
+      "1331828",
+      "1331827"
+    ]
+  },
+  {
+    "company": "AmazonHelp",
+    "end": "2015-09-02T22:40:16+00:00",
+    "long_flag": false,
+    "n_turns": 1,
+    "over48": false,
+    "span_h": 0.0,
+    "start": "2015-09-02T22:40:16+00:00",
+    "thread_id": "6787a2ab1cfb3807",
+    "turns": [
+      "1331826"
+    ]
+  },
+  {
+    "company": "AmazonHelp",
+    "end": "2015-09-23T19:14:27+00:00",
+    "long_flag": false,
+    "n_turns": 1,
+    "over48": false,
+    "span_h": 0.0,
+    "start": "2015-09-23T19:14:27+00:00",
+    "thread_id": "1ffe159be54f0d87",
+    "turns": [
+      "1071112"
+    ]
+  },
+  {
+    "company": "AmazonHelp",
+    "end": "2015-10-30T13:17:32+00:00",
+    "long_flag": false,
+    "n_turns": 1,
+    "over48": false,
+    "span_h": 0.0,
+    "start": "2015-10-30T13:17:32+00:00",
+    "thread_id": "a924b63e1a6b7088",
+    "turns": [
+      "1730207"
+    ]
+  },
+  {
+    "company": "AmazonHelp",
+    "end": "2015-12-23T22:39:01+00:00",
+    "long_flag": false,
+    "n_turns": 2,
+    "over48": false,
+    "span_h": 0.557,
+    "start": "2015-12-23T22:05:36+00:00",
+    "thread_id": "cdfb8521d209ae5e",
+    "turns": [
+      "940416",
+      "940414"
+    ]
+  },
+  {
+    "company": "AmazonHelp",
+    "end": "2016-01-06T07:52:26+00:00",
+    "long_flag": false,
+    "n_turns": 1,
+    "over48": false,
+    "span_h": 0.0,
+    "start": "2016-01-06T07:52:26+00:00",
+    "thread_id": "741599d066200f94",
+    "turns": [
+      "440015"
+    ]
+  },
+  {
+    "company": "AmazonHelp",
+    "end": "2016-01-18T16:14:03+00:00",
+    "long_flag": false,
+    "n_turns": 2,
+    "over48": false,
+    "span_h": 0.141,
+    "start": "2016-01-18T16:05:36+00:00",
+    "thread_id": "39c9f31db9eecc67",
+    "turns": [
+      "1390559",
+      "1390557"
+    ]
+  },
+  {
+    "company": "AmazonHelp",
+    "end": "2016-03-22T05:22:00+00:00",
+    "long_flag": false,
+    "n_turns": 2,
+    "over48": false,
+    "span_h": 0.259,
+    "start": "2016-03-22T05:06:27+00:00",
+    "thread_id": "c028a24ceec2210f",
+    "turns": [
+      "1087355",
+      "1087353"
+    ]
+  }
+]

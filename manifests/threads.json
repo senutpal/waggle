@@ -1,0 +1,20 @@
+{
+  "amazon_threads": 85161,
+  "avg_turns": 3.375,
+  "cycles_guarded": 581710,
+  "fanout_rate": 0.22408144573220137,
+  "fanout_threads": 19083,
+  "fanout_total": 28331,
+  "first_not_inbound_dropped": 1082,
+  "link_time_inversions": 0,
+  "long_flagged": 2258,
+  "missing_parent": 669,
+  "multi_company_dropped": 309,
+  "n_input": 373412,
+  "over48_flagged": 39,
+  "parent_not_inbound_pool": 0,
+  "singletons_dropped": 0,
+  "splits_24h": 3995,
+  "threads_emitted": 85161,
+  "total_threads": 85161
+}
