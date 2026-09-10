@@ -1,0 +1,85 @@
+{
+  "collapse_mapping": {},
+  "cut": "2017-10-15T00:00:00Z",
+  "date_hist": {
+    "2017-10": 51,
+    "2017-11": 125,
+    "2017-12": 24
+  },
+  "exact_overlap": 0,
+  "files": {
+    "flags": "data-sample/golden_review_flags.csv",
+    "golden": "data-sample/golden.jsonl"
+  },
+  "gap_delta_hours": 24.06,
+  "gap_hours": 24,
+  "head_intents": [
+    "other",
+    "shipping-tracking",
+    "returns-refunds"
+  ],
+  "n": 200,
+  "n_hard": 30,
+  "n_head": 98,
+  "n_random": 170,
+  "n_replaced_train_collisions": 0,
+  "n_tail": 102,
+  "near_dup": {
+    "max_pair": {},
+    "method": "datasketch MinHash num_perm=128 char-5gram seed=42 scheme=affine32",
+    "n_flagged": 0,
+    "near_dup_max": 0.0,
+    "threshold_sample": 0.8
+  },
+  "pass": true,
+  "pilot_excluded": 50,
+  "pseudo_counts_pool": {
+    "account-security": 919,
+    "cancel-modify": 2235,
+    "complaint-feedback": 3254,
+    "device-tech": 2834,
+    "order-status": 3347,
+    "other": 19395,
+    "payment-promo": 2723,
+    "product-info": 1437,
+    "returns-refunds": 5696,
+    "shipping-tracking": 12824
+  },
+  "quota_actual_random_170": {
+    "account-security": 13,
+    "cancel-modify": 13,
+    "complaint-feedback": 13,
+    "device-tech": 13,
+    "order-status": 13,
+    "other": 30,
+    "payment-promo": 13,
+    "product-info": 13,
+    "returns-refunds": 19,
+    "shipping-tracking": 30
+  },
+  "quota_cap": 30,
+  "quota_min_per": 12,
+  "quota_plan_170": {
+    "account-security": 13,
+    "cancel-modify": 13,
+    "complaint-feedback": 13,
+    "device-tech": 13,
+    "order-status": 13,
+    "other": 30,
+    "payment-promo": 13,
+    "product-info": 13,
+    "returns-refunds": 19,
+    "shipping-tracking": 30
+  },
+  "seed": 42,
+  "stratifier": {
+    "name": "heur-pseudo-stratifier",
+    "version": "heur-v1.2.0"
+  },
+  "tfidf_flag": {
+    "disposition": "human-review",
+    "n_flagged": 0,
+    "threshold": 0.9
+  },
+  "version": "1.0.0"
+}

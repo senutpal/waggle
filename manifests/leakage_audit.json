@@ -6,18 +6,24 @@
   "id_overlap": {
     "thread_id_overlap": 0
   },
-  "n_golden_pool": 54714,
+  "n_golden_pool": 54664,
   "n_golden_sample": 200,
   "n_train": 12633,
   "near_dup": {
     "disposition": "pass",
     "max_pair": {},
-    "method": "datasketch MinHash num_perm=128 char-5gram seed=42 scheme=affine32 + LSH threshold=0.85",
+    "method": "datasketch MinHash num_perm=128 char-5gram seed=42 scheme=affine32 + LSH threshold=0.8",
     "n_flagged": 0,
     "near_dup_max": 0.0,
-    "threshold_freeze": 0.85
+    "threshold_freeze": 0.85,
+    "threshold_sample": 0.8
   },
   "pass": true,
   "seed": 42,
+  "tfidf_sample_flag": {
+    "disposition": "human-review",
+    "n_flagged": 0,
+    "threshold": 0.9
+  },
   "version": "1.0.0"
 }
