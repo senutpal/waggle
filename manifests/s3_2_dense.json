@@ -1,0 +1,17 @@
+{
+  "cache_mb": 108.89,
+  "dim": 384,
+  "encode_seconds": 295.7,
+  "index": {
+    "index_bytes": 19404333,
+    "index_sha": "2fa8b9e611375a1a8399b7d984f3b10f691ef308b8876a6846388e81556aa028",
+    "meta_bytes": 7295224,
+    "meta_sha": "a43c62c96b8b3fb13ba992f0f7c3f83a77e4802009cc3bd5d649ddc0e35a4880"
+  },
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ntotal": 12633,
+  "ok": true,
+  "seed": 42,
+  "self_recall_at_1": 1.0,
+  "version": "1.0.0"
+}
