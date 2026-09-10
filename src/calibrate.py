@@ -164,6 +164,22 @@ def reliability_plot(bins: list[dict], path, title: str = "Reliability diagram (
     return p
 
 
+def encode_t2(texts: list[str], model_name: str = "sentence-transformers/all-MiniLM-L6-v2", batch_size: int = 64):
+    """Frozen MiniLM embeddings. Raises ImportError/RuntimeError when the
+    full-only stack or cached model is unavailable (repro fallback)."""
+    import os
+
+    os.environ.setdefault("HF_HUB_OFFLINE", "1")
+    from sentence_transformers import SentenceTransformer
+
+    enc = SentenceTransformer(model_name)
+    if enc.get_sentence_embedding_dimension() != 384:
+        raise RuntimeError("unexpected embedding dim")
+    import numpy as np
+
+    return np.asarray(enc.encode(list(texts), batch_size=batch_size, normalize_embeddings=False, show_progress_bar=False))
+
+
 def confusion_plot(cm, labels: list[str], path, title: str = "Confusion matrix") -> str:
     import matplotlib
 

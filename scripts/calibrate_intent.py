@@ -118,13 +118,10 @@ def main() -> int:
     t2_pred = None
     z_te_t2 = None
     try:
-        os.environ.setdefault("HF_HUB_OFFLINE", "1")
-        from sentence_transformers import SentenceTransformer
+        from src.calibrate import encode_t2
 
-        enc = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
-        assert enc.get_sentence_embedding_dimension() == 384
-        Z_tr = np.asarray(enc.encode(X_tr, batch_size=64, normalize_embeddings=False, show_progress_bar=False))
-        Z_te = np.asarray(enc.encode(X_te, batch_size=64, normalize_embeddings=False, show_progress_bar=False))
+        Z_tr = encode_t2(X_tr)
+        Z_te = encode_t2(X_te)
         t2_info["encode_seconds"] = round(time.perf_counter() - t_start, 1)
         # temp-tune T2 head on 3-fold OOF embedding logits
         from sklearn.model_selection import StratifiedKFold

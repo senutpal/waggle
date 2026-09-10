@@ -39,12 +39,33 @@ def test_energy_oos_ordering():
     assert m["auroc"] == 1.0 and m["fpr95"] == 0.0
 
 
-def test_no_mahalanobis_anywhere():
-    import subprocess
+def test_t2_fallback_without_full_deps(monkeypatch):
+    import sys
 
-    r = subprocess.run(["git", "grep", "-il", "mahalanobis", "--", "src", "scripts", "tests"],
-                       cwd=str(ROOT), capture_output=True, text=True)
-    assert r.stdout.strip() == "", r.stdout
+    from src.calibrate import encode_t2
+
+    monkeypatch.setitem(sys.modules, "sentence_transformers", None)
+    try:
+        encode_t2(["hello"])
+    except (ImportError, ValueError, AttributeError):
+        return
+    raise AssertionError("encode_t2 should raise without the full-only stack")
+
+
+def test_no_mahalanobis_implementation():
+    """Fail iff `mahalanobis` appears in CODE (not comments/docstrings/tests
+    documenting its deliberate absence)."""
+    import io
+    import tokenize
+
+    offenders: list[str] = []
+    for p in list((ROOT / "src").rglob("*.py")) + list((ROOT / "scripts").rglob("*.py")):
+        toks = [t for t in tokenize.generate_tokens(io.StringIO(p.read_text(encoding="utf-8")).readline)
+                if t.type not in (tokenize.COMMENT, tokenize.STRING, tokenize.NL, tokenize.NEWLINE,
+                                  tokenize.INDENT, tokenize.DEDENT, tokenize.ENCODING, tokenize.ENDMARKER)]
+        if any("mahalanobis" in t.string.lower() for t in toks):
+            offenders.append(str(p))
+    assert offenders == [], offenders
 
 
 def test_calibration_artifacts_committed():
