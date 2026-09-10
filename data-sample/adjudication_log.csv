@@ -1,0 +1,9 @@
+pilot_id,thread_id,rater_a,rater_b,adjudicated,rule,note
+p11,1d70a4e2784fbdfe,complaint-feedback,other,complaint-feedback,taxonomy-priority-wins,multi-intent; lowest priority index kept per codebook
+p14,99c7dcb10465c64f,complaint-feedback,cancel-modify,cancel-modify,taxonomy-priority-wins,multi-intent; lowest priority index kept per codebook
+p25,79dcd67ca6a5bf6c,complaint-feedback,shipping-tracking,shipping-tracking,taxonomy-priority-wins,multi-intent; lowest priority index kept per codebook
+p28,20cee99f8c062986,complaint-feedback,payment-promo,payment-promo,taxonomy-priority-wins,multi-intent; lowest priority index kept per codebook
+p32,2f461b8ff0ae3114,complaint-feedback,cancel-modify,cancel-modify,taxonomy-priority-wins,multi-intent; lowest priority index kept per codebook
+p43,b0eca7ab5204c960,order-status,shipping-tracking,shipping-tracking,taxonomy-priority-wins,multi-intent; lowest priority index kept per codebook
+p48,b22ecb6365ea2726,shipping-tracking,other,shipping-tracking,taxonomy-priority-wins,multi-intent; lowest priority index kept per codebook
+p50,39bfca01e44ed637,order-status,other,order-status,taxonomy-priority-wins,multi-intent; lowest priority index kept per codebook

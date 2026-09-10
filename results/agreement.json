@@ -1,0 +1,41 @@
+{
+  "cohen_kappa": {
+    "ci": 0.95,
+    "lower": 0.6782,
+    "n_boot": 10000,
+    "point": 0.8085,
+    "upper": 0.9259
+  },
+  "disjoint_from_golden200": true,
+  "gate": {
+    "kappa_ge_0_6": true,
+    "lower_ci_gt_0_4": true
+  },
+  "krippendorff_alpha_nominal": {
+    "ci": 0.95,
+    "lower": 0.6725,
+    "n_boot": 10000,
+    "point": 0.8075,
+    "upper": 0.9258
+  },
+  "multi_label_rate": 0.34,
+  "n": 50,
+  "n_disagreements": 8,
+  "pass": true,
+  "per_class_kappa": {
+    "account-security": 1.0,
+    "cancel-modify": 0.0,
+    "complaint-feedback": 0.5675,
+    "device-tech": 1.0,
+    "order-status": 0.7788,
+    "other": 0.7664,
+    "payment-promo": 0.8466,
+    "product-info": 1.0,
+    "returns-refunds": 1.0,
+    "shipping-tracking": 0.8598
+  },
+  "rater_a": "human-blind-codebook",
+  "rater_b": "heur-pseudo-stratifier:heur-v1.2.0",
+  "seed": 42,
+  "version": "1.0.0"
+}
