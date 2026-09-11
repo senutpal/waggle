@@ -78,3 +78,32 @@ intent:
   ece_bins: 10
   t2: {model: sentence-transformers/all-MiniLM-L6-v2, dim: 384, ablation: bge-small-en-v1.5}
   oos: {method: energy-only, no_mahalanobis: true}
+generation:
+  model: gemini-2.5-flash
+  temp: 0.2
+  response_mime_type: application/json
+  prompt_version: s4.1-v1.0.0
+  body_max_chars: 240
+  fit_max_chars: 280
+  fit_reserve_chars: 10
+  thresholds: {ret_score_min: 0.30, contra_max: 0.6}
+  nli: {model: MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli, swap: cross-encoder/nli-MiniLM2-L6-H768, entail_min: 0.2, scope: tie-break-only, splitter: splitter@v1.0.0}
+  grounding: {tier_v_cite: required, tier_b_exempt_template: DM-request}
+  blocklist_refund:
+    - guaranteed refund
+    - will refund you
+    - refund approved
+    - 100% refund
+    - instant refund
+  hedge_template: "eligible for review under policy; can't guarantee outcome; track in app, agent will confirm."
+  verifier: {model: openai/gpt-oss-20b, prompt_version: verifier-v1.2.0-gptoss20b-low-20260911, scope: high-tier-only, on_reject: escalate-hedge}
+escalation:
+  confidence_min: 0.75
+  abstain_target: [0.08, 0.15]
+  risk: {conf_weight: 0.7, ground_weight: 0.3, pen_per_hard_hit: 0.2, pen_pii: 0.3, pen_low_retrieval: 0.2, pen_max: 0.5, low_retrieval_lt: 0.35}
+  hard_gates: [HUM, LEG, PRI, SAF, FIN]
+  tiers:
+    high: {auto_below: 0.25, escalate_above: 0.45}
+    med: {auto_below: 0.35, escalate_above: 0.60}
+    low: {auto_below: 0.45, escalate_above: 0.70}
+  note: "INIT operating points only - final swept on val ROC/ECE (S4.4)"
