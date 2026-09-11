@@ -1,0 +1,12 @@
+{
+  "gate": {
+    "pass": false
+  },
+  "leakage": {
+    "exact_overlap_q0_vs_corpus": 0,
+    "pass": true
+  },
+  "n": 200,
+  "seed": 42,
+  "version": "1.0.0"
+}

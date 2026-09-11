@@ -1,0 +1,130 @@
+{
+  "B": 10000,
+  "arms": {
+    "b1_rrf": {
+      "hard_30": {
+        "n": 30,
+        "r3": 0.0667
+      },
+      "n": 200,
+      "random_170": {
+        "n": 170,
+        "r3": 0.0765
+      },
+      "recall_at_3": 0.075,
+      "wilson95": [
+        0.046,
+        0.12
+      ]
+    },
+    "b2_full": {
+      "hard_30": {
+        "n": 30,
+        "r3": 0.0667
+      },
+      "n": 200,
+      "random_170": {
+        "n": 170,
+        "r3": 0.1235
+      },
+      "recall_at_3": 0.115,
+      "wilson95": [
+        0.0779,
+        0.1666
+      ]
+    },
+    "bm25_only": {
+      "hard_30": {
+        "n": 30,
+        "r3": 0.0
+      },
+      "n": 200,
+      "random_170": {
+        "n": 170,
+        "r3": 0.0
+      },
+      "recall_at_3": 0.0,
+      "wilson95": [
+        0.0,
+        0.0188
+      ]
+    },
+    "dense_only": {
+      "hard_30": {
+        "n": 30,
+        "r3": 0.1
+      },
+      "n": 200,
+      "random_170": {
+        "n": 170,
+        "r3": 0.1235
+      },
+      "recall_at_3": 0.12,
+      "wilson95": [
+        0.082,
+        0.1723
+      ]
+    }
+  },
+  "bootstrap_seed": 123,
+  "delta_b2_b1": {
+    "mcnemar": {
+      "b": 12,
+      "c": 4,
+      "method": "exact",
+      "p": 0.0768
+    },
+    "paired_bca95": [
+      0.0,
+      0.08
+    ],
+    "point": 0.04,
+    "verdict": "inconclusive (overlapping CIs)"
+  },
+  "gate": {
+    "pass": false
+  },
+  "latency_cpu_ms": {
+    "gate_lt_800ms": false,
+    "n": 200,
+    "rerank_p50": 581.5,
+    "rerank_p95": 1858.2
+  },
+  "leakage": {
+    "exact_overlap_q0_vs_corpus": 0,
+    "pass": true
+  },
+  "mde": {
+    "paired_pp": 7,
+    "unpaired_pp": 14
+  },
+  "n": 200,
+  "params": {
+    "bm25": {
+      "b": 0.4,
+      "k1": 0.8
+    },
+    "dense_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "mmr_lambda": 0.7,
+    "rerank": {
+      "batch": 16,
+      "depth": "10->3",
+      "model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "trunc": 512
+    },
+    "rrf_k": 60
+  },
+  "primary": {
+    "gate_ge_0_70": false,
+    "metric": "Recall@3",
+    "point": 0.115,
+    "wilson95": [
+      0.0779,
+      0.1666
+    ]
+  },
+  "qrels": "proxy tfidf-charwb-argmax-same-intent (disclosed, NOT human; see results/retrieval_pairs.json)",
+  "seed": 42,
+  "total_seconds": 189.7,
+  "version": "1.0.0"
+}

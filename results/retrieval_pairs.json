@@ -1,0 +1,802 @@
+{
+  "g0001": {
+    "gold": "338fc04763333f3a",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0002": {
+    "gold": "dd4a414a476b0cf1",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0003": {
+    "gold": "5f8b49577fbd16b9",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0004": {
+    "gold": "461024f14ca911a9",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0005": {
+    "gold": "16ef0bbde44051b6",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0006": {
+    "gold": "1546413b6e779426",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0007": {
+    "gold": "1546413b6e779426",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0008": {
+    "gold": "31c4eb18d3f969c6",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0009": {
+    "gold": "fd8cc3121c9384d2",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0010": {
+    "gold": "1546413b6e779426",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0011": {
+    "gold": "807abe7247cdbe65",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0012": {
+    "gold": "0628f8671bf9066a",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0013": {
+    "gold": "6e3d80762dec770d",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0014": {
+    "gold": "315a9b8c1bf96a0c",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0015": {
+    "gold": "9dfac0dd76bd5f6e",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0016": {
+    "gold": "fd6cb6200053868b",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0017": {
+    "gold": "d6f64e1604d14b44",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0018": {
+    "gold": "9b2ccc3bf4912d11",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0019": {
+    "gold": "5c6479af73fb0ba2",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0020": {
+    "gold": "8f15e5b38351675f",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0021": {
+    "gold": "f7bee473d0e6f65f",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0022": {
+    "gold": "0e34fcbc4f525220",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0023": {
+    "gold": "d5b7050a5ef96924",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0024": {
+    "gold": "899725c2705417bf",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0025": {
+    "gold": "6dec211d2ce4f214",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0026": {
+    "gold": "e1729271de2fe11c",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0027": {
+    "gold": "24992909b2c12e52",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0028": {
+    "gold": "616298ff7478152b",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0029": {
+    "gold": "4141ffee798fa958",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0030": {
+    "gold": "d6b81090d8f4894c",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0031": {
+    "gold": "b3077baa522e3dde",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0032": {
+    "gold": "e1825f8643d3f78e",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0033": {
+    "gold": "9935faa56705e96e",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0034": {
+    "gold": "12177306393f39f2",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0035": {
+    "gold": "d3b1155f4c31cf7c",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0036": {
+    "gold": "120b8282f9f359ef",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0037": {
+    "gold": "48b380c628eb2a20",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0038": {
+    "gold": "36e416a702a2bb4e",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0039": {
+    "gold": "e245e67782e79d46",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0040": {
+    "gold": "3d6bd3ac223579f1",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0041": {
+    "gold": "7d9da6a724439cd1",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0042": {
+    "gold": "36e416a702a2bb4e",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0043": {
+    "gold": "f766a0297d30a4ad",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0044": {
+    "gold": "80e390aca5e983c2",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0045": {
+    "gold": "ca9825cf41f1600f",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0046": {
+    "gold": "0d5bc2fc7ce745e8",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0047": {
+    "gold": "27d6885fe45f90ae",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0048": {
+    "gold": "7895932aa396b8ba",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0049": {
+    "gold": "e446a2907fe5fc21",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0050": {
+    "gold": "c4159e0fac76dcb2",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0051": {
+    "gold": "b3e41b39adf4e203",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0052": {
+    "gold": "78e3d65d8450ede5",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0053": {
+    "gold": "3bd000df74c7a201",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0054": {
+    "gold": "4b47f3f0b9de9999",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0055": {
+    "gold": "c7d9e180122bb862",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0056": {
+    "gold": "cf40e17993ef1a1b",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0057": {
+    "gold": "5661c9cf14c37ce5",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0058": {
+    "gold": "e39c0e7e0a935cdc",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0059": {
+    "gold": "fc174627a8785319",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0060": {
+    "gold": "8e16bd239bc12944",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0061": {
+    "gold": "798abeb8911ccad6",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0062": {
+    "gold": "6118eefbdad9c61f",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0063": {
+    "gold": "15232079821c47c8",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0064": {
+    "gold": "e60e6cd0164b7b1d",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0065": {
+    "gold": "fdbfc6d0ae943eae",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0066": {
+    "gold": "77b907e8affb32dc",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0067": {
+    "gold": "083b8638a7d6e80f",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0068": {
+    "gold": "993e51d111321d32",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0069": {
+    "gold": "cde82b90d87831f0",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0070": {
+    "gold": "4ecdf7817a1a103b",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0071": {
+    "gold": "3a7aeee43a691126",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0072": {
+    "gold": "3f284792b50024fa",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0073": {
+    "gold": "915a360d0d713f1a",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0074": {
+    "gold": "eeb65ddd0881b832",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0075": {
+    "gold": "6e5cd1b9e6126ef1",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0076": {
+    "gold": "c21d85568906f5eb",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0077": {
+    "gold": "26a2f84d7047a27b",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0078": {
+    "gold": "462187c23c6b131f",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0079": {
+    "gold": "be0b2efb0163780b",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0080": {
+    "gold": "8188943223082ee0",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0081": {
+    "gold": "8e16bd239bc12944",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0082": {
+    "gold": "7af8b3bca167e76e",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0083": {
+    "gold": "2f6691bd14679da6",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0084": {
+    "gold": "7515c6d4f0c67a0f",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0085": {
+    "gold": "62d0f10199a13c12",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0086": {
+    "gold": "19d085577206ca47",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0087": {
+    "gold": "0491a87452905afd",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0088": {
+    "gold": "4ee786ea4205bec6",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0089": {
+    "gold": "26c0ba3fbed1c310",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0090": {
+    "gold": "26c0ba3fbed1c310",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0091": {
+    "gold": "6d3582da502845e9",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0092": {
+    "gold": "d7945ec654678580",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0093": {
+    "gold": "a1eb5f0b1228f6a0",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0094": {
+    "gold": "a327502ecdaa362b",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0095": {
+    "gold": "150dfcfee46d418d",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0096": {
+    "gold": "7a197bd000e0f66b",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0097": {
+    "gold": "ea9902f080759563",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0098": {
+    "gold": "cf99ea712abb4572",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0099": {
+    "gold": "e421ce15ab58687e",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0100": {
+    "gold": "07862ffaf67fa7f8",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0101": {
+    "gold": "a5b2a62ebd1c7302",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0102": {
+    "gold": "906691a0abc74337",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0103": {
+    "gold": "5b3eaf3dbd0b1c27",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0104": {
+    "gold": "19f61c4258ba1029",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0105": {
+    "gold": "df05f58a45e3ee3d",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0106": {
+    "gold": "0af237f6a2fa2d3c",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0107": {
+    "gold": "7a190de6012048a2",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0108": {
+    "gold": "715895ea4c673f27",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0109": {
+    "gold": "5f21e5a7b5c52398",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0110": {
+    "gold": "d84d283a355a7beb",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0111": {
+    "gold": "a0819fa8c43eb08b",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0112": {
+    "gold": "a99c341a4f86b179",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0113": {
+    "gold": "f66055003df3793d",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0114": {
+    "gold": "8c35cfae45598fa0",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0115": {
+    "gold": "6fdc873226d67b1d",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0116": {
+    "gold": "4cb5edfc65976c1c",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0117": {
+    "gold": "69dae908c96998d5",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0118": {
+    "gold": "315804eae3a3c6b0",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0119": {
+    "gold": "ef3593eb003bc857",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0120": {
+    "gold": "2fc0602804728c25",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0121": {
+    "gold": "ebca41293c306b0f",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0122": {
+    "gold": "ad4461afd7c4d56f",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0123": {
+    "gold": "179912ad4b1ac3c9",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0124": {
+    "gold": "fa7d56be227af3ba",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0125": {
+    "gold": "06879e57eb020b08",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0126": {
+    "gold": "dead4b50ac80969f",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0127": {
+    "gold": "0e2fa39bd5307756",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0128": {
+    "gold": "40ec1bcdde49857d",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0129": {
+    "gold": "91c64f81eacbfb31",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0130": {
+    "gold": "f2fc9d5909ea2e8d",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0131": {
+    "gold": "9664979e6927f229",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0132": {
+    "gold": "93df6307f4f10c0b",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0133": {
+    "gold": "cb135a265843f0d1",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0134": {
+    "gold": "3fb60abc55bd1fbd",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0135": {
+    "gold": "fad3cf369f1268e6",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0136": {
+    "gold": "b9b603e4a11d5c32",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0137": {
+    "gold": "7f507e13197cde86",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0138": {
+    "gold": "b0f2d11b58f86378",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0139": {
+    "gold": "fdc812060b795795",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0140": {
+    "gold": "bb496c9df2b69d72",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0141": {
+    "gold": "c6675b7e266392de",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0142": {
+    "gold": "a5bcaa25499fcf06",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0143": {
+    "gold": "401fa570c6be26ba",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0144": {
+    "gold": "2a137bfeb471ebd1",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0145": {
+    "gold": "8634a9d5ecb1d612",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0146": {
+    "gold": "2365488ae6564c44",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0147": {
+    "gold": "48229add0cf00de1",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0148": {
+    "gold": "a025cee476501b2b",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0149": {
+    "gold": "f90f9118bb0ac7a6",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0150": {
+    "gold": "951a1954fcf0094b",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0151": {
+    "gold": "1eacc049609c8587",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0152": {
+    "gold": "c2711772d68158e4",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0153": {
+    "gold": "ca7b11a9e7298548",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0154": {
+    "gold": "cb3aea1492553029",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0155": {
+    "gold": "b3eeb969eaaea439",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0156": {
+    "gold": "edd9d4e0b48d116b",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0157": {
+    "gold": "9e730d5fee2993ef",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0158": {
+    "gold": "b563d5b2a2baf71f",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0159": {
+    "gold": "46eca7c9f1ab60b5",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0160": {
+    "gold": "92380b4a87011a0b",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0161": {
+    "gold": "b5f574ff5cccbaed",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0162": {
+    "gold": "9eb4bf2b825bb502",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0163": {
+    "gold": "523cf72c91098524",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0164": {
+    "gold": "da9572dba4fdb8e8",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0165": {
+    "gold": "d0b7432f69d42a13",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0166": {
+    "gold": "551c19c086b13b99",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0167": {
+    "gold": "738037763bd12acd",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0168": {
+    "gold": "bfab82770d403b22",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0169": {
+    "gold": "1806700bfa430215",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0170": {
+    "gold": "1cf515a4422d509b",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0171": {
+    "gold": "87ad6a1d47409a23",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0172": {
+    "gold": "6920f80a4068dddf",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0173": {
+    "gold": "65ed10b084d45dba",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0174": {
+    "gold": "9327ea1012df1de3",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0175": {
+    "gold": "16ef0bbde44051b6",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0176": {
+    "gold": "7f88c5c6b02362cb",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0177": {
+    "gold": "d22b3361bc38e7f7",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0178": {
+    "gold": "0748946712e858df",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0179": {
+    "gold": "2c6fdd29ebc3f87f",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0180": {
+    "gold": "2effd8bc7ab74141",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0181": {
+    "gold": "9638abb45314ecb9",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0182": {
+    "gold": "30b1286c247e6937",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0183": {
+    "gold": "c378712af9c4a588",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0184": {
+    "gold": "53dba2d4425ceb45",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0185": {
+    "gold": "3a75bf24782ecf64",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0186": {
+    "gold": "86447edf29c23efe",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0187": {
+    "gold": "5aba17e1b4d1292c",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0188": {
+    "gold": "816947a28a93da4f",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0189": {
+    "gold": "a0a16c7d956c6958",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0190": {
+    "gold": "9210cbcf20353435",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0191": {
+    "gold": "99173b4abedcb307",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0192": {
+    "gold": "5a0a3ab7d3824e5c",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0193": {
+    "gold": "7b1c3430fc7f92ae",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0194": {
+    "gold": "8bd387d27983e672",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0195": {
+    "gold": "05474278abe7d677",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0196": {
+    "gold": "485e1d7fc9ba3bbb",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0197": {
+    "gold": "f99ae3fc4b438656",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0198": {
+    "gold": "0d5bc2fc7ce745e8",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0199": {
+    "gold": "08e752989e0227e3",
+    "method": "tfidf-charwb-argmax-same-intent"
+  },
+  "g0200": {
+    "gold": "746b4a3d1833b04c",
+    "method": "tfidf-charwb-argmax-same-intent"
+  }
+}
