@@ -1,0 +1,19 @@
+{
+  "delta": {
+    "mcnemar": {
+      "b": 0,
+      "c": 0,
+      "method": "exact",
+      "p": 1.0
+    },
+    "paired_bca95": [
+      0.0,
+      0.0
+    ],
+    "point": 0.0,
+    "verdict": "repro-skipped (no key, low-tier skip); full Groq ablation in S4.5"
+  },
+  "n": 100,
+  "seed": 42,
+  "version": "1.0.0"
+}

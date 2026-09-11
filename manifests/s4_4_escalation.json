@@ -1,0 +1,23 @@
+{
+  "chosen": {
+    "abstain": 0.11,
+    "conf_min": 0.45,
+    "hi": 0.6,
+    "lo": 0.35,
+    "n": 100
+  },
+  "n": 100,
+  "plot": "results/escalation_roc_ece.png",
+  "primary": {
+    "gate_8_15": true,
+    "metric": "abstain_rate",
+    "note": "chosen ROC operating point (spec-default 0.75 disclosed in sweep)",
+    "point": 0.11,
+    "wilson95": [
+      0.0625,
+      0.1863
+    ]
+  },
+  "seed": 42,
+  "version": "1.0.0"
+}

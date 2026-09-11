@@ -1,0 +1,15 @@
+{
+  "chosen": {
+    "abstain": 0.11,
+    "conf_min": 0.45,
+    "hi": 0.6,
+    "lo": 0.35,
+    "n": 100
+  },
+  "gate": {
+    "pass": true
+  },
+  "n": 100,
+  "seed": 42,
+  "version": "1.0.0"
+}
