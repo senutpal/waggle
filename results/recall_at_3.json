@@ -25,12 +25,28 @@
       "n": 200,
       "random_170": {
         "n": 170,
-        "r3": 0.1235
+        "r3": 0.1353
       },
-      "recall_at_3": 0.115,
+      "recall_at_3": 0.125,
       "wilson95": [
-        0.0779,
-        0.1666
+        0.0861,
+        0.178
+      ]
+    },
+    "b3_routed": {
+      "hard_30": {
+        "n": 30,
+        "r3": 0.0667
+      },
+      "n": 200,
+      "random_170": {
+        "n": 170,
+        "r3": 0.1118
+      },
+      "recall_at_3": 0.105,
+      "wilson95": [
+        0.0697,
+        0.1552
       ]
     },
     "bm25_only": {
@@ -66,29 +82,94 @@
       ]
     }
   },
+  "arms_def": "bm25_only/dense_only top3; b1_rrf=RRF top3 no-rerank; b2_full=CE-rerank top3; b3_routed=B2+soft-boosts+q1-bestof+MMR final",
   "bootstrap_seed": 123,
   "delta_b2_b1": {
     "mcnemar": {
       "b": 12,
-      "c": 4,
+      "c": 2,
       "method": "exact",
-      "p": 0.0768
+      "p": 0.0129
     },
     "paired_bca95": [
-      0.0,
-      0.08
+      0.015,
+      0.09
     ],
-    "point": 0.04,
+    "point": 0.05,
     "verdict": "inconclusive (overlapping CIs)"
+  },
+  "delta_b3_b2": {
+    "mcnemar": {
+      "b": 4,
+      "c": 8,
+      "method": "exact",
+      "p": 0.3877
+    },
+    "paired_bca95": [
+      -0.055,
+      0.015
+    ],
+    "point": -0.02
   },
   "gate": {
     "pass": false
   },
+  "intent_arms": {
+    "b1_rrf": {
+      "intent_hit_at_3": 0.635,
+      "n": 200,
+      "wilson95": [
+        0.5663,
+        0.6986
+      ]
+    },
+    "b2_full": {
+      "intent_hit_at_3": 0.72,
+      "n": 200,
+      "wilson95": [
+        0.6541,
+        0.7776
+      ]
+    },
+    "b3_routed": {
+      "intent_hit_at_3": 0.77,
+      "n": 200,
+      "wilson95": [
+        0.7069,
+        0.8229
+      ]
+    },
+    "bm25_only": {
+      "intent_hit_at_3": 0.345,
+      "n": 200,
+      "wilson95": [
+        0.2826,
+        0.4132
+      ]
+    },
+    "dense_only": {
+      "intent_hit_at_3": 0.71,
+      "n": 200,
+      "wilson95": [
+        0.6436,
+        0.7685
+      ]
+    }
+  },
+  "intent_relevance": {
+    "metric": "IntentHit@3",
+    "note": "operational relevance for grounding (>=1 top-3 shares query intent)",
+    "point": 0.77,
+    "wilson95": [
+      0.7069,
+      0.8229
+    ]
+  },
   "latency_cpu_ms": {
     "gate_lt_800ms": false,
     "n": 200,
-    "rerank_p50": 581.5,
-    "rerank_p95": 1858.2
+    "rerank_p50": 1015.3,
+    "rerank_p95": 2980.3
   },
   "leakage": {
     "exact_overlap_q0_vs_corpus": 0,
@@ -104,6 +185,11 @@
       "b": 0.4,
       "k1": 0.8
     },
+    "boosts": {
+      "date": 0.05,
+      "intent": 0.2,
+      "lang": 0.03
+    },
     "dense_model": "sentence-transformers/all-MiniLM-L6-v2",
     "mmr_lambda": 0.7,
     "rerank": {
@@ -117,14 +203,19 @@
   "primary": {
     "gate_ge_0_70": false,
     "metric": "Recall@3",
-    "point": 0.115,
+    "point": 0.105,
     "wilson95": [
-      0.0779,
-      0.1666
+      0.0697,
+      0.1552
     ]
   },
   "qrels": "proxy tfidf-charwb-argmax-same-intent (disclosed, NOT human; see results/retrieval_pairs.json)",
+  "routing": {
+    "backoff_rate": 0.0,
+    "q1_rate": 0.645,
+    "threshold": 0.35
+  },
   "seed": 42,
-  "total_seconds": 189.7,
-  "version": "1.0.0"
+  "total_seconds": 528.5,
+  "version": "1.1.0"
 }
