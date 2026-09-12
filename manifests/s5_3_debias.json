@@ -1,0 +1,73 @@
+{
+  "bias_first": 0.5,
+  "bias_first_wilson95": [
+    0.4038,
+    0.5962
+  ],
+  "consistency": 1.0,
+  "consistency_wilson95": [
+    0.9286,
+    1.0
+  ],
+  "gate": {
+    "pass": true
+  },
+  "length_controlled": {
+    "lc": 0.5,
+    "n": 0,
+    "phi": 0.0,
+    "raw": 0.5
+  },
+  "method": "proxy-deterministic-repro; verbose probes use real src oracles",
+  "n": 50,
+  "n_consistent": 50,
+  "n_pairs": 50,
+  "note": "proxy order-independent; live swap pending",
+  "prompt_hash": "177f567dd86077ce",
+  "prompt_version": "judge-pairwise-v1.0.0-gptoss20b-temp0-20260911",
+  "seed": 42,
+  "verbose_gate": {
+    "gate": "verbose-wrong still fails",
+    "n": 6,
+    "pass": true,
+    "verbose_pass_n": 0
+  },
+  "verbose_probes": [
+    {
+      "probe_id": "hallucinated-link-or-phone",
+      "verbose_pass": false
+    },
+    {
+      "probe_id": "unentailed-refund",
+      "verbose_pass": false
+    },
+    {
+      "probe_id": "wrong-phone-entity",
+      "verbose_pass": false
+    },
+    {
+      "probe_id": "banned-refund-promise",
+      "verbose_pass": false
+    },
+    {
+      "probe_id": "truncation-severs-link",
+      "verbose_pass": false
+    },
+    {
+      "probe_id": "link-severed-validate",
+      "verbose_pass": false
+    }
+  ],
+  "version": "1.0.0",
+  "win_rate_X": {
+    "losses": 0,
+    "n": 50,
+    "point": 0.5,
+    "ties": 50,
+    "wins": 0
+  },
+  "win_rate_X_wilson95": [
+    0.0,
+    0.0714
+  ]
+}
