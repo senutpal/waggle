@@ -1,0 +1,15 @@
+{
+  "B": 10000,
+  "bootstrap_seed": 123,
+  "example": "72.5% [65.9,78.2] p=0.077 n=200 wilson",
+  "methods": [
+    "wilson",
+    "paired-bootstrap-percentile-B10k-rng123",
+    "bca-opt-in",
+    "mcnemar-exact-25",
+    "wilcoxon-pratt"
+  ],
+  "rule": "overlapping CIs never bolded; pre-registered primary only claims win",
+  "seed": 42,
+  "version": "1.0.0"
+}
