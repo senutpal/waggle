@@ -1,3 +1,4 @@
+absl-py==2.5.0
 certifi==2026.7.22
 charset-normalizer==3.5.1
 cloudpickle==3.1.2
@@ -10,6 +11,7 @@ joblib==1.6.0
 kagglehub==1.0.2
 kagglesdk==0.1.37
 narwhals==2.26.0
+nltk==3.10.3
 numpy==2.5.3
 packaging==26.3
 pandas==2.3.3
@@ -22,6 +24,7 @@ python-dateutil==2.9.0.post0
 pytz==2026.3.post1
 PyYAML==6.0.3
 requests==2.34.2
+rouge-score==0.1.2
 scikit-learn==1.9.0
 scipy==1.17.1
 six==1.17.0

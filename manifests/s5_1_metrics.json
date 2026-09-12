@@ -1,0 +1,17 @@
+{
+  "gate": {
+    "pass": true
+  },
+  "n": 2,
+  "primary": {
+    "ci95": [
+      0.0,
+      0.1
+    ],
+    "metric": "intent_macro_f1",
+    "point": 0.0667
+  },
+  "seed": 42,
+  "total_seconds": 9.1,
+  "version": "1.0.0"
+}

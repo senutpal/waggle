@@ -1,0 +1,564 @@
+{
+  "B": 10000,
+  "appendix": {
+    "bertscore_f1": null,
+    "bertscore_status": "skipped_no_torch:RuntimeError",
+    "grounded_boilerplate_rate": 0.71,
+    "headline": false,
+    "note": "vanity - reward lexical overlap, uncorrelated with faithfulness, gameable by verbose-copy",
+    "rouge1_f1": 0.046,
+    "rougeL_f1": 0.0381,
+    "rouge_status": "ok"
+  },
+  "bootstrap_seed": 123,
+  "human_calibration": {
+    "gate": {
+      "anchor_rank_holds": true,
+      "fallback": "halt headline, report human-only on n=50",
+      "qwk_ge_0_6_lower_gt_0_4": {
+        "groundedness": true,
+        "safety": false
+      },
+      "ship": false
+    },
+    "method": "proxy-proxy agreement (shares rules; overestimates). Live human calibration pending; headlines stay proxy-disclosed with MDE discipline.",
+    "n_queries": 50,
+    "n_triaged": 80
+  },
+  "judge_debias": {
+    "bias_first": 0.5,
+    "bias_first_wilson95": [
+      0.4038,
+      0.5962
+    ],
+    "consistency": 1.0,
+    "consistency_wilson95": [
+      0.9286,
+      1.0
+    ],
+    "gate": {
+      "pass": true
+    },
+    "length_controlled": {
+      "lc": 0.5,
+      "n": 0,
+      "phi": 0.0,
+      "raw": 0.5
+    },
+    "method": "proxy-deterministic-repro; verbose probes use real src oracles",
+    "n": 50,
+    "n_consistent": 50,
+    "n_pairs": 50,
+    "note": "proxy order-independent; live swap pending",
+    "prompt_hash": "177f567dd86077ce",
+    "prompt_version": "judge-pairwise-v1.0.0-gptoss20b-temp0-20260911",
+    "verbose_gate": {
+      "gate": "verbose-wrong still fails",
+      "n": 6,
+      "pass": true,
+      "verbose_pass_n": 0
+    },
+    "verbose_probes": [
+      {
+        "probe_id": "hallucinated-link-or-phone",
+        "verbose_pass": false
+      },
+      {
+        "probe_id": "unentailed-refund",
+        "verbose_pass": false
+      },
+      {
+        "probe_id": "wrong-phone-entity",
+        "verbose_pass": false
+      },
+      {
+        "probe_id": "banned-refund-promise",
+        "verbose_pass": false
+      },
+      {
+        "probe_id": "truncation-severs-link",
+        "verbose_pass": false
+      },
+      {
+        "probe_id": "link-severed-validate",
+        "verbose_pass": false
+      }
+    ],
+    "win_rate_X": {
+      "losses": 0,
+      "n": 50,
+      "point": 0.5,
+      "ties": 50,
+      "wins": 0
+    },
+    "win_rate_X_wilson95": [
+      0.0,
+      0.0714
+    ]
+  },
+  "judge_schema_50": {
+    "anchor_rank": {
+      "gate": "1<3<5 else halt",
+      "holds": true,
+      "mean_1": 1.0,
+      "mean_3": 3.0,
+      "mean_5": 5.0,
+      "per_triple": [
+        true,
+        true,
+        true
+      ]
+    },
+    "gate": {
+      "pass": true
+    },
+    "method": "proxy-deterministic-repro (live Groq judge pending); schema + rank-check logic verified",
+    "n": 50,
+    "parse_crashes": 0,
+    "pass_rate": 1.0,
+    "pass_wilson95": [
+      0.9286,
+      1.0
+    ]
+  },
+  "live_calls": 0,
+  "mde": {
+    "paired_pp": 7,
+    "unpaired_pp": 14
+  },
+  "metrics_seconds": 5.2,
+  "model_ids": {
+    "gen": "gemini-2.5-flash",
+    "judge": "openai/gpt-oss-20b-pending_s5_2"
+  },
+  "n": 200,
+  "offline": true,
+  "primary": {
+    "ci95": [
+      0.7457,
+      0.8676
+    ],
+    "metric": "intent_macro_f1",
+    "n": 170,
+    "overall": {
+      "B": 10000,
+      "ci95": [
+        0.7219,
+        0.8375
+      ],
+      "method": "paired-bootstrap-percentile-B10k-rng123",
+      "n": 200,
+      "point": 0.7866,
+      "seed": 123
+    },
+    "per_intent_overall": [
+      {
+        "f1": 0.8,
+        "intent": "account-security",
+        "precision": 1.0,
+        "recall": 0.6667,
+        "support": 15
+      },
+      {
+        "f1": 0.5556,
+        "intent": "cancel-modify",
+        "precision": 0.5882,
+        "recall": 0.5263,
+        "support": 19
+      },
+      {
+        "f1": 0.8,
+        "intent": "returns-refunds",
+        "precision": 0.8125,
+        "recall": 0.7879,
+        "support": 33
+      },
+      {
+        "f1": 0.8966,
+        "intent": "payment-promo",
+        "precision": 0.9286,
+        "recall": 0.8667,
+        "support": 15
+      },
+      {
+        "f1": 0.7229,
+        "intent": "shipping-tracking",
+        "precision": 0.625,
+        "recall": 0.8571,
+        "support": 35
+      },
+      {
+        "f1": 0.7586,
+        "intent": "order-status",
+        "precision": 0.7333,
+        "recall": 0.7857,
+        "support": 14
+      },
+      {
+        "f1": 0.96,
+        "intent": "device-tech",
+        "precision": 1.0,
+        "recall": 0.9231,
+        "support": 13
+      },
+      {
+        "f1": 0.8182,
+        "intent": "product-info",
+        "precision": 1.0,
+        "recall": 0.6923,
+        "support": 13
+      },
+      {
+        "f1": 0.8,
+        "intent": "complaint-feedback",
+        "precision": 0.8333,
+        "recall": 0.7692,
+        "support": 13
+      },
+      {
+        "f1": 0.7541,
+        "intent": "other",
+        "precision": 0.7419,
+        "recall": 0.7667,
+        "support": 30
+      }
+    ],
+    "per_intent_random170": [
+      {
+        "f1": 0.8696,
+        "intent": "account-security",
+        "precision": 1.0,
+        "recall": 0.7692,
+        "support": 13
+      },
+      {
+        "f1": 0.6667,
+        "intent": "cancel-modify",
+        "precision": 0.7273,
+        "recall": 0.6154,
+        "support": 13
+      },
+      {
+        "f1": 0.8,
+        "intent": "returns-refunds",
+        "precision": 0.7619,
+        "recall": 0.8421,
+        "support": 19
+      },
+      {
+        "f1": 0.9167,
+        "intent": "payment-promo",
+        "precision": 1.0,
+        "recall": 0.8462,
+        "support": 13
+      },
+      {
+        "f1": 0.7606,
+        "intent": "shipping-tracking",
+        "precision": 0.6585,
+        "recall": 0.9,
+        "support": 30
+      },
+      {
+        "f1": 0.7692,
+        "intent": "order-status",
+        "precision": 0.7692,
+        "recall": 0.7692,
+        "support": 13
+      },
+      {
+        "f1": 0.96,
+        "intent": "device-tech",
+        "precision": 1.0,
+        "recall": 0.9231,
+        "support": 13
+      },
+      {
+        "f1": 0.8182,
+        "intent": "product-info",
+        "precision": 1.0,
+        "recall": 0.6923,
+        "support": 13
+      },
+      {
+        "f1": 0.8333,
+        "intent": "complaint-feedback",
+        "precision": 0.9091,
+        "recall": 0.7692,
+        "support": 13
+      },
+      {
+        "f1": 0.7541,
+        "intent": "other",
+        "precision": 0.7419,
+        "recall": 0.7667,
+        "support": 30
+      }
+    ],
+    "point": 0.8148,
+    "random_170": {
+      "B": 10000,
+      "ci95": [
+        0.7457,
+        0.8676
+      ],
+      "method": "paired-bootstrap-percentile-B10k-rng123",
+      "n": 170,
+      "point": 0.8148,
+      "seed": 123
+    },
+    "splits": {
+      "overall_200": {
+        "B": 10000,
+        "ci95": [
+          0.7219,
+          0.8375
+        ],
+        "method": "paired-bootstrap-percentile-B10k-rng123",
+        "n": 200,
+        "point": 0.7866,
+        "seed": 123
+      },
+      "random_only_170": {
+        "B": 10000,
+        "ci95": [
+          0.7457,
+          0.8676
+        ],
+        "method": "paired-bootstrap-percentile-B10k-rng123",
+        "n": 170,
+        "point": 0.8148,
+        "seed": 123
+      }
+    },
+    "summarize": {
+      "ci": [
+        0.7457,
+        0.8676
+      ],
+      "method": "paired-bootstrap-B10k-rng123+mcnemar",
+      "n": 170,
+      "p": 0.0,
+      "point": 0.8148,
+      "render": "81.5% [74.6,86.8] p=0.000 n=170 paired-bootstrap-B10k-rng123+mcnemar"
+    },
+    "vs_majority": {
+      "delta": 0.62,
+      "mcnemar": {
+        "b": 131,
+        "c": 7,
+        "method": "chi2",
+        "p": 0.0,
+        "stat": 111.42
+      },
+      "paired_ci95": [
+        0.545,
+        0.695
+      ],
+      "verdict": "win"
+    }
+  },
+  "prompt_hash": "s4.1-v1.0.0",
+  "secondaries": {
+    "esc_auroc": {
+      "n": 100,
+      "n_neg": 100,
+      "n_pos": 0,
+      "point": null,
+      "reason": "single-class"
+    },
+    "esc_ece_10bin": {
+      "bins": [
+        {
+          "acc": 0.0,
+          "bin": 0,
+          "conf": 0.0,
+          "hi": 0.1,
+          "lo": 0.0,
+          "n": 0
+        },
+        {
+          "acc": 0.0,
+          "bin": 1,
+          "conf": 0.0,
+          "hi": 0.2,
+          "lo": 0.1,
+          "n": 0
+        },
+        {
+          "acc": 0.0,
+          "bin": 2,
+          "conf": 0.0,
+          "hi": 0.30000000000000004,
+          "lo": 0.2,
+          "n": 0
+        },
+        {
+          "acc": 0.0,
+          "bin": 3,
+          "conf": 0.0,
+          "hi": 0.4,
+          "lo": 0.30000000000000004,
+          "n": 0
+        },
+        {
+          "acc": 0.0,
+          "bin": 4,
+          "conf": 0.0,
+          "hi": 0.5,
+          "lo": 0.4,
+          "n": 0
+        },
+        {
+          "acc": 0.4,
+          "bin": 5,
+          "conf": 0.5508466666666666,
+          "hi": 0.6000000000000001,
+          "lo": 0.5,
+          "n": 15
+        },
+        {
+          "acc": 0.7,
+          "bin": 6,
+          "conf": 0.65947,
+          "hi": 0.7000000000000001,
+          "lo": 0.6000000000000001,
+          "n": 10
+        },
+        {
+          "acc": 0.8888888888888888,
+          "bin": 7,
+          "conf": 0.7478111111111112,
+          "hi": 0.8,
+          "lo": 0.7000000000000001,
+          "n": 9
+        },
+        {
+          "acc": 1.0,
+          "bin": 8,
+          "conf": 0.8559181818181819,
+          "hi": 0.9,
+          "lo": 0.8,
+          "n": 11
+        },
+        {
+          "acc": 1.0,
+          "bin": 9,
+          "conf": 0.9756981818181819,
+          "hi": 1.0,
+          "lo": 0.9,
+          "n": 55
+        }
+      ],
+      "method": "ece-10bin",
+      "n": 100,
+      "n_bins": 10,
+      "point": 0.0686
+    },
+    "esc_false_auto": {
+      "formula": "FP/(FP+TN)",
+      "fp": 0,
+      "n": 100,
+      "n_pos": 0,
+      "point": null,
+      "tn": 0,
+      "wilson95": [
+        0.0,
+        0.0
+      ]
+    },
+    "grounded_verifiable_TierV": {
+      "n": 100,
+      "n_tierv": 29,
+      "note": "Tier-V only; Tier-B exempt",
+      "ok": 29,
+      "point": 1.0,
+      "wilson95": [
+        0.883,
+        1.0
+      ]
+    },
+    "judge_pass_rate": {
+      "k": 0,
+      "n": 12,
+      "point": 0.0,
+      "status": "cached",
+      "wilson95": [
+        0.0,
+        0.2425
+      ]
+    },
+    "p95_ms_cost": {
+      "cost_per_1k": 0.0,
+      "method": "percentile-free-tier-0",
+      "n": 200,
+      "p50": 2205.1,
+      "p95": 6169.6,
+      "tokens_in": 0,
+      "tokens_out": 0
+    },
+    "recall_at_3": {
+      "intent_hit_at_3": 0.77,
+      "metric": "Recall@3",
+      "n": 200,
+      "point": 0.105,
+      "qrels": "proxy tfidf-charwb-argmax-same-intent (disclosed, NOT human)",
+      "wilson95": [
+        0.0697,
+        0.1552
+      ]
+    },
+    "safety_violation_rate": {
+      "by": {
+        "banned": 0,
+        "gate_bypass": 0,
+        "pii": 0,
+        "uncited_TierV_auto": 0
+      },
+      "k": 0,
+      "n": 100,
+      "point": 0.0,
+      "wilson95": [
+        0.0,
+        0.037
+      ]
+    },
+    "tail_recall": {
+      "n": 170,
+      "overall": {
+        "n": 200,
+        "tail": [
+          "account-security",
+          "cancel-modify",
+          "payment-promo",
+          "order-status",
+          "device-tech",
+          "product-info",
+          "complaint-feedback"
+        ],
+        "tail_macro": 0.7471,
+        "tail_micro": 0.7353
+      },
+      "tail": [
+        "account-security",
+        "cancel-modify",
+        "payment-promo",
+        "order-status",
+        "device-tech",
+        "product-info",
+        "complaint-feedback"
+      ],
+      "tail_macro": 0.7692,
+      "tail_micro": 0.7692,
+      "wilson_note": "means use bootstrap; rates use Wilson"
+    }
+  },
+  "seed": 42,
+  "total_seconds": 13.9,
+  "verdict": {
+    "claim": "win",
+    "reason": "primary-only",
+    "win": true
+  },
+  "version": "1.0.0"
+}
