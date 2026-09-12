@@ -2,16 +2,16 @@
   "gate": {
     "pass": true
   },
-  "n": 2,
+  "n": 200,
   "primary": {
     "ci95": [
-      0.0,
-      0.1
+      0.7457,
+      0.8676
     ],
     "metric": "intent_macro_f1",
-    "point": 0.0667
+    "point": 0.8148
   },
   "seed": 42,
-  "total_seconds": 9.1,
+  "total_seconds": 10.5,
   "version": "1.0.0"
 }
