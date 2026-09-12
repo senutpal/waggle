@@ -1,0 +1,25 @@
+{
+  "anchor_rank": {
+    "gate": "1<3<5 else halt",
+    "holds": true,
+    "mean_1": 1.0,
+    "mean_3": 3.0,
+    "mean_5": 5.0,
+    "per_triple": [
+      true,
+      true,
+      true
+    ]
+  },
+  "gate": {
+    "pass": true
+  },
+  "method": "proxy-deterministic-repro (live Groq judge pending); schema + rank-check logic verified",
+  "n": 50,
+  "parse_crashes": 0,
+  "pass_rate": 1.0,
+  "pass_wilson95": [
+    0.9286,
+    1.0
+  ]
+}

@@ -97,6 +97,7 @@ generation:
     - instant refund
   hedge_template: "eligible for review under policy; can't guarantee outcome; track in app, agent will confirm."
   verifier: {model: openai/gpt-oss-20b, prompt_version: verifier-v1.2.0-gptoss20b-low-20260911, scope: high-tier-only, on_reject: escalate-hedge}
+  judge: {model: openai/gpt-oss-20b, temp: 0.0, seed: 42, prompt_version: judge-v1.0.0-absolute-gptoss20b-temp0-20260911, rubric_version: judge-rubric-v1.0.0, anchor_set: eval/anchors.json, consistency_gate: 0.85, scope: absolute-table1-pairwise-ablations-only, cache: cache/judge_cache.jsonl, ttl_default_s: 604800, ttl_groundedness_s: 86400}
 escalation:
   confidence_min: 0.75
   abstain_target: [0.08, 0.15]
