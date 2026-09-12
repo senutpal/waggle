@@ -1,0 +1,15 @@
+{
+  "gate": {
+    "anchor_rank_holds": true,
+    "fallback": "halt headline, report human-only on n=50",
+    "qwk_ge_0_6_lower_gt_0_4": {
+      "groundedness": true,
+      "safety": false
+    },
+    "ship": false
+  },
+  "method": "proxy-proxy agreement (shares rules; overestimates). Live human calibration pending; headlines stay proxy-disclosed with MDE discipline.",
+  "n_queries": 50,
+  "seed": 42,
+  "version": "1.0.0"
+}
